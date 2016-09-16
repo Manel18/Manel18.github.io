@@ -1,16 +1,45 @@
 .header{
+	background-image: url(img/thumb-1920-403441.png);
 	margin-top: 0;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #ccc;
+	background-size: cover;
 	height: 250px;
 }
 
+.div-shadow{
+	box-shadow: 0px 5px 5px #888888;
+}
+
+.about-user{
+	margin-top: 4px;
+	height: 350px;
+	background-color: #dadada;
+}
+
+.education{
+}
+
 .user-desc{
-	
+	float: left;
+	padding: 45px 15px 45px 15px;
+}
+
+.social{
+	float: right;
+	font-size: 50px;
+	padding: 50px 15px 50px 15px;
+	margin-left: 30px;;
 }
 
 .name{
+	font-weight: 700;
 }
 
 .desc{
+	font-weight: 400;
+}
+
+.some-margin{
+	margin-left: 20px;
 }
