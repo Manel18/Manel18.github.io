@@ -1,3 +1,9 @@
+body{
+	background-image: url(img/light.png);
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+
 .header{
 	background-image: url(img/thumb-1920-403441.png);
 	margin-top: 0;
@@ -5,16 +11,19 @@
 	background-color: #ccc;
 	background-size: cover;
 	height: 250px;
+	box-shadow: 0px 6px 10px 0px #888888 ! important;
 }
 
 .div-shadow{
-	box-shadow: 0px 5px 5px #888888;
+	box-shadow: 0px 2px 5px #888888;
 }
 
 .about-user{
-	margin-top: 4px;
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	margin-top: 15px;
 	height: 350px;
-	background-color: #dadada;
+	background-color: rgba(221, 221, 221, 0.75);/*#dddddd dadada*/
 }
 
 .education{
@@ -29,7 +38,14 @@
 	float: right;
 	font-size: 50px;
 	padding: 50px 15px 50px 15px;
-	margin-left: 30px;;
+	margin-left: 30px;
+}
+
+.section-title{
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	font-color: #ccc;
 }
 
 .name{
