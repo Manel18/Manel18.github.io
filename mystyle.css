@@ -48,6 +48,28 @@ body{
 	font-color: #ccc;
 }
 
+.about-me{
+}
+
+.details{
+}
+
+h6{		
+	font-size: 25px;
+	font-weight: 400;
+	font-color: #ccc;
+}
+
+.sect-text{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+
+.sub-title{
+	text-align: center;
+}
+
 .name{
 	font-weight: 700;
 }
