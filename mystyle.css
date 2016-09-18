@@ -1,16 +1,20 @@
 body{
+	margin: 0;
+	padding: 0;
 	background-image: url(img/light.png);
 	background-attachment: fixed;
 	background-repeat: repeat;
 }
 
 .header{
+	display: block;
 	background-image: url(img/thumb-1920-403441.png);
-	margin-top: 0;
+	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #ccc;
 	background-size: cover;
 	height: 250px;
+/*	width: 1371px;*/
 	box-shadow: 0px 6px 10px 0px #888888 ! important;
 }
 
@@ -52,6 +56,10 @@ body{
 }
 
 .details{
+}
+
+.details-list{
+	padding-left: 20px;
 }
 
 h6{		
