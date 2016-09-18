@@ -19,11 +19,24 @@
 	<!-- My pretty css file -->
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
 
+	<script type="text/javascript" src="myfunc.js"></script>
 	
 
 </head>
 
 <body>
+<!--	
+	<script>
+		$(document).ready(function(e) {
+			$('#p').css('display', 'none');
+			$('#title').hover(function() {
+				$('#p').show();	
+			}, function() {
+				$('#p').hide();
+			});
+		});
+	</script>
+-->
 	<header class="header">
 		<div class="content-fluid">
 			<div class="user-desc col-md-4">
@@ -108,7 +121,36 @@
 		</div>
 	</div>
 
-	<div class="Education">
+	<div class="experience div-shadow" style="margin-left: 10px; margin-right:10px">
+		<div class="container-fluid">
+			<div class="row">
+				<h4 id="title" class="section-title">
+					Experience
+				</h4>
+				<div class="education">
+					<h5 style="margin-bottom: 25px;font-weight: 400; font-size: 25px">
+						<i class="fa fa-graduation-cap"></i> Education
+					</h5>
+					
+					<div class="row">	
+						<div class="uni">
+							<a href="ocursohtm://www.eng.uminho.pt/en/">
+								<img src="img/uni.jpg"></img>
+							</a>
+						</div>
+						
+						<div class="course">
+							<a href="https://www.eng.uminho.pt/en/study/_layouts/15/UMinho.PortaisUOEI.UI/Pages/CatalogoCursoDetail.aspx?itemId=2135&catId=7">
+						<strong>Informatics Engineering (Integrated Master's)</strong></a> (Current GPA: 16 out of 20)<br>
+						</div>
+					</div>
+				</div>
+				<hr>
+				
+				<div class="skills">
+				</div>
+			</div>
+		</div>
 	</div>
 
 </body>
