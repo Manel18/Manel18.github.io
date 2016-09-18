@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/light.png);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	overflow-x: hidden;
+}
+
+.header{
+	display: block;
+	background-image: url(../img/thumb-1920-403441.png);
+	margin: 0; 
+	font-family: 'Open Sans', sans-serif; 
+	background-color: #ccc; 
+	background-size: cover; 
+	height: 250px; 
+	/*	width: 1371px;*/
+	box-shadow: 0px 6px 10px 0px #888888 ! important;
+}
+
+.div-shadow{
+	box-shadow: 0px 2px 5px #888888;
+}
+
+hr{
+	border: 0;
+	height: 1px;
+	background: rgba(49, 49, 49, 0.4);
+	background-image: -webkit-linear-gradient(left, #ccc, rgba(49, 49, 49, 0.4), #ccc);
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.about-user{
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	margin-top: 15px;
+	height: 350px;
+	background-color: rgba(221, 221, 221, 0.75);/*#dddddd dadada*/
+}
+
+.experience{
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	margin-top: 15px;
+	height: 380px;
+	background-color: rgba(221, 221, 221, 0.75);
+}
+
+.skills{
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	margin-top: 15px;
+	height: 345px;
+	background-color: rgba(221, 221, 221, 0.75);
+}
+
+a{
+	color: rgb(51,51,51);
+}
+
+a.head-link{
+	color: #ccc;
+}
+
+.user-desc{
+	float: left;
+	padding: 45px 15px 45px 15px;
+}
+
+.social{
+	float: right;
+	font-size: 50px;
+	padding: 50px 15px 50px 15px;
+	margin-left: 30px;
+}
+
+.section-title{
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	font-color: #ccc;
+}
+
+.uni{
+	display: inline-block;
+	width: 200 ! important;
+	height: 99 ! important;
+	padding-left: 17px;
+	padding-right: 17px 
+}
+
+.course{
+	display: inline-block;
+/*	text-align: left;
+	float: left;*/
+}
+
+.about-me{
+}
+
+.details{
+}
+
+.education{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.work-exp{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.topic{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.details-list{
+	padding-left: 20px;
+}
+
+.lang-list{
+	padding-top: 32px;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+h6{		
+	font-size: 25px;
+	font-weight: 400;
+	font-color: #ccc;
+}
+
+#p{
+}
+
+.sect-text{
+	padding-left: 20px;
+	padding-right: 10px;
+	text-align: justify;
+}
+
+.sub-title{
+	text-align: center;
+}
+
+.name{
+	font-weight: 700;
+}
+
+.desc{
+	font-weight: 400;
+}
+
+.some-margin{
+	margin-left: 20px;
+}
