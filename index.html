@@ -6,6 +6,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/font-mfizz.css">
 
 	<!-- bootstrap the shit out of this  -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -17,7 +19,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
 	
 	<!-- My pretty css file -->
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 
 	<script type="text/javascript" src="myfunc.js"></script>
 	
@@ -47,23 +49,23 @@
 			<!-- links above are "https://...", i pushed them as they are, but when i access the webpage the links are "www. ..." -->	
 			<div class="social col-md-4">	
 				<ul class="list-inline" style="float: right">
-					<li class="some-margin">
-						<a href="https://github.com/Manel18">
+					<li class="some-margin ">
+						<a href="https://github.com/Manel18" class="head-link">
 							<i class="fa fa-github"></i>
 						</a>
 					</li>
-					<li class="some-margin">
-						<a href="https://twitter.com/manelHendrix">
+					<li class="some-margin head-link">
+						<a href="https://twitter.com/manelHendrix" class="head-link">
 							<i class="fa fa-twitter"></i>
 						</a>
 					</li>
-					<li class="some-margin">
-						<a href="mailto:peaceandhendrix@gmail.com" target="_blank">
+					<li class="some-margin head-link">
+						<a href="mailto:peaceandhendrix@gmail.com" class="head-link" target="_blank">
 							<i class="fa fa-envelope"></i>
 						</a>
 					</li>
 					<li class="some-margin">
-						<a href="#">
+						<a href="#" class="head-link">
 							<i class="fa fa-linkedin"></i>
 						</a>
 					</li>
@@ -72,7 +74,7 @@
 		</div>
 
 	</header>
-	<div class="about-user div-shadow" style="margin-left: 10px; margin-right: 10px;">
+	<div class="about-user div-shadow" style="margin-left: 100px; margin-right: 100px;">
 		<div class="container-fluid">
 			<div class="row">
 				<h4 class="section-title">
@@ -121,11 +123,11 @@
 		</div>
 	</div>
 
-	<div class="experience div-shadow" style="margin-left: 10px; margin-right:10px">
+	<div class="experience div-shadow" style="margin-left: 100px; margin-right:100px">
 		<div class="container-fluid">
 			<div class="row">
-				<h4 id="title" class="section-title">
-					Experience
+				<h4 class="section-title">
+					<i class="fa fa-wrench"></i> Experience
 				</h4>
 				<div class="education">
 					<h5 style="margin-bottom: 25px;font-weight: 400; font-size: 25px">
@@ -141,13 +143,119 @@
 						
 						<div class="course">
 							<a href="https://www.eng.uminho.pt/en/study/_layouts/15/UMinho.PortaisUOEI.UI/Pages/CatalogoCursoDetail.aspx?itemId=2135&catId=7">
-						<strong>Informatics Engineering (Integrated Master's)</strong></a> (Current GPA: 16 out of 20)<br>
+						<strong>Informatics Engineering (Integrated Master's)</strong></a> (Current GPA: 16 out of 20)<br>2014-Present
 						</div>
 					</div>
 				</div>
 				<hr>
 				
-				<div class="skills">
+				<div class="work-exp">
+					<h5 style="margin-bottom: 25px; font-weight: 400; font-size: 25px">
+						<i class="fa fa-briefcase"> </i> Work Experience
+					</h5>
+
+					<div class="row">
+						<div style="padding-left: 17px">
+							<p>Im working hard to fill this section with awesome experiences!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="skills div-shadow" style="margin-left: 100px; margin-right:100px">
+		<div class="container-fluid">
+			<div class="row">
+				<h4 class="section-title">
+					<i class="fa fa-terminal"></i> Skills
+				</h4>
+				<div class="row" style="margin: 0px">
+					<div class="topic col-md-2">
+						<h6 style="margin-bottom: 25px; font-weight: 400; font-size: 19px">
+							<strong>
+								<i class="fa fa-code"></i> Languages
+							</strong>
+						</h6>
+					</div>
+					<div class="languages col-md-6">
+						<ul class="list-inline lang-list">
+							<li>
+								<i class="icon-c"></i>
+							</li>
+							<li class="some-margin">
+								<i class="icon-cplusplus"></i>
+							</li>
+							<li class="some-margin">
+								<i class="icon-java"></i> Java
+							</li>
+							<li class="some-margin">
+								<i class="icon-python"></i> Python
+							</li>
+							<li class="some-margin">
+								<i class="icon-haskell"></i> Haskell
+							</li>
+							<li class="some-margin"> Octave/Matlab </li>
+						</ul>
+					</div>
+				</div>
+				<div class="row" style="margin: 0px">
+					<div class="topic col-md-2">
+						<h6 style="margin-bottom: 25px; font-weight: 400; font-size: 19px">
+							<strong><i class="fa fa-database"></i> Database</strong>
+						</h6>
+					</div>
+					<div class="languages col-md-4">
+						<ul class="list-inline lang-list">
+							<li>
+								<i class="icon-mysql"></i> MySQL
+							</li>
+							<li class="some-margin">
+								<i class="fa fa-leaf"></i> MongoDB
+							</li>
+							<li class="some-margin">
+								Neo4j
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row" style="margin: 0px">
+					<div class="topic col-md-2">
+						<h6 style="margin-bottom: 25px; font-weight: 400; font-size: 19px">
+							<strong>
+								<i class="fa fa-gear"></i> O.S
+							</strong>
+						</h6>
+					</div>
+					<div class="languages col-md-4">
+						<ul class="list-inline lang-list">
+							<li>
+								<i class="fa fa-linux"></i> Linux
+							</li>
+							<li class="some-margin">
+								<i class="fa fa-windows"></i> Windows
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row" style="margin: 0px">
+					<div class="topic col-md-2">
+						<h6 style="margin-bottom: 25px; font-weight: 400; font-size: 19px">
+							<strong>
+								<i class="fa fa-plus"></i> Others
+							</strong>
+						</h6>
+					</div>
+					<div class="languages col-md-4">
+						<ul class="list-inline lang-list">
+							<li>
+								<i class="fa fa-code-fork"></i> Git
+							</li>
+							<li class="some-margin">
+								<i class="icon-shell"></i> Shell
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
